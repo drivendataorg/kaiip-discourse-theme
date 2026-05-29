@@ -162,3 +162,9 @@ h6,
 #topic-title h1 a {
   color: var(--color-primary);
 }
+
+.admin-controls .controls,
+.admin-controls,
+.nav-stacked {
+  background: transparent;
+}
