@@ -1,0 +1,115 @@
+// Style variables snippet imported from https://github.com/drivendataorg/kaiip-platform
+
+:root {
+  --color-grey-950: #191614;
+  --color-grey-900: #242220;
+  --color-grey-800: #312e2c;
+  --color-grey-700: #46413f;
+  --color-grey-600: #58514c;
+  --color-grey-500: #6f6761;
+  --color-grey-400: #9b9085;
+  --color-grey-300: #bcb1a3;
+  --color-grey-200: #dad2c4;
+  --color-grey-100: #eae6dc;
+  --color-grey-50: #f9f8f5 /* locked */;
+
+  --color-purple-950: #20083f /* locked */;
+  --color-purple-900: #2a1a42;
+  --color-purple-800: #37264e;
+  --color-purple-700: #4d3965 /* locked */;
+  --color-purple-600: #60477d;
+  --color-purple-500: #7b58a2;
+  --color-purple-400: #a97edf;
+  --color-purple-300: #c1a7e5;
+  --color-purple-200: #daceec;
+  --color-purple-100: #ebe3f6;
+  --color-purple-50: #f9f7fb;
+
+  --color-blue-950: #01182a;
+  --color-blue-900: #082439;
+  --color-blue-800: #0d314a;
+  --color-blue-700: #003c5e /* locked */;
+  --color-blue-600: #1d5779;
+  --color-blue-500: #1c6b8e /* locked */;
+  --color-blue-400: #269bc4 /* locked */;
+  --color-blue-300: #77bbdb;
+  --color-blue-200: #add9f0;
+  --color-blue-100: #d3eaf5;
+  --color-blue-50: #f4f9fb;
+
+  --color-orange-950: #281006;
+  --color-orange-900: #351b13;
+  --color-orange-800: #47251b;
+  --color-orange-700: #653527;
+  --color-orange-600: #7b4330;
+  --color-orange-500: #a35941 /* locked */;
+  --color-orange-400: #d97757 /* locked */;
+  --color-orange-300: #e6a28a;
+  --color-orange-200: #f3c9c1;
+  --color-orange-100: #f8e1de;
+  --color-orange-50: #fcf7f6;
+}
+
+:root {
+  --font-heading: "Merriweather", Helvetica, Arial, sans-serif;
+  --font-body: "Inter", Helvetica, Arial, sans-serif;
+  --font-btn: "Inter", Helvetica, Arial, sans-serif;
+
+  --color-accent: var(--color-purple-950);
+  --color-primary: var(--color-accent);
+  --bs-primary-bg-subtle: var(--color-purple-100);
+
+  --color-muted: var(--color-grey-500);
+
+  --color-border-strong: var(--color-grey-800);
+  --color-border-weak: var(--color-grey-200);
+  --color-border: var(--color-border-weak);
+
+  --color-background-light: var(--color-grey-50);
+
+  --color-light: var(--color-grey-200);
+
+  --color-competitions: var(--color-purple-700);
+  --color-models: var(--color-orange-400);
+  --color-datasets: var(--color-blue-400);
+  --color-benchmarks: var(--color-blue-500);
+
+  --color-body: var(--color-grey-950);
+  --color-heading: var(--color-accent);
+
+  --border-radius-common: 5px;
+
+  --bs-border-radius-2xl: 1.5rem;
+
+  --color-practice: var(--color-blue-500);
+  --color-success: #15803d;
+  --color-info: var(--color-blue-500);
+  --color-warning: var(--color-orange-500);
+  --color-danger: var(--global-palette1);
+
+  --color-prize: var(--color-accent);
+  --color-completed: var(--color-success);
+
+  --color-active: var(--color-accent);
+
+  --background-log: var(--color-body);
+
+  --bs-code-color: var(--color-orange-500);
+  --bs-light: var(--color-background-light);
+  --bs-secondary: var(--color-muted);
+  --bs-success: var(--color-success);
+  --bs-info: var(--color-info);
+  --bs-warning: var(--color-warning);
+
+  --bs-danger: var(--color-danger);
+  --bs-primary: var(--color-accent);
+  --bs-link-color: var(--color-accent);
+  --bs-link-hover-color: var(--color-accent);
+  --bs-btn-disabled-bg: var(--color-accent);
+  --bs-btn-disabled-border-color: var(--color-accent);
+  --bs-border-color: var(--color-border-weak);
+
+  --bs-border-radius: var(--border-radius-common);
+
+  --min-width-mobile-supported: 360px;
+}

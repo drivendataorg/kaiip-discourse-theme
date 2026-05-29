@@ -1,0 +1,164 @@
+.uc-modernize-foundation-theme {
+  // Turn off font smoothing as it makes the text thin and low contrast
+  --webkit-font-smoothing: unset;
+  -webkit-font-smoothing: unset !important;
+}
+
+.discourse-no-touch nav.post-controls .fade-out {
+  opacity: 1;
+}
+
+.topic-map__contents .topic-map__stats.--single-stat .fk-d-menu__trigger span {
+  color: var(--color-muted);
+}
+
+.uc-modernize-foundation-theme .welcome-banner {
+  padding-block-start: 0;
+  padding-block-end: 0;
+}
+
+header.d-header {
+  box-shadow: none;
+  background: var(--color-background-light);
+}
+
+.d-header #site-logo {
+  max-height: 45px !important;
+  height: 100%;
+}
+
+header.d-header {
+  box-shadow: none;
+  padding: 1.5rem 0;
+}
+
+.header-sidebar-toggle button .d-icon {
+  color: var(--color-primary);
+}
+
+.uc-modernize-foundation-theme #main-outlet-wrapper .sidebar-wrapper {
+  box-shadow: none;
+}
+
+.discourse-no-touch .header-sidebar-toggle button:hover {
+  background-color: transparent;
+}
+
+.user-main .about .details {
+  background: transparent !important;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li > a.active {
+  font-weight: 700;
+}
+
+.hashtag-cooked {
+  background: transparent;
+  color: var(--color-body);
+  border: 1px solid var(--color-border-weak);
+}
+
+.uc-modernize-foundation-theme
+  .select-kit.single-select.is-expanded
+  .select-kit-header:not(.btn),
+.uc-modernize-foundation-theme
+  .select-kit.single-select
+  .select-kit-header:not(.btn):active,
+.uc-modernize-foundation-theme
+  .select-kit.single-select
+  .select-kit-header:not(.btn):focus,
+.uc-modernize-foundation-theme .select-kit.combo-box .select-kit-header,
+.uc-modernize-foundation-theme .select-kit.multi-select .multi-select-header {
+  border-color: var(--color-border-strong);
+  background-color: white;
+}
+.select-kit.is-expanded .select-kit-body {
+  background: white;
+  box-shadow: none;
+  border-color: var(--color-border-strong);
+}
+.uc-modernize-foundation-theme .select-kit.combo-box.tag-drop .tag-drop-header,
+.uc-modernize-foundation-theme
+  .select-kit.combo-box.category-drop
+  .category-drop-header,
+.uc-modernize-foundation-theme
+  .list-controls
+  .combo-box
+  .combo-box-header:hover {
+  background: transparent;
+  border-color: transparent;
+}
+
+.uc-modernize-foundation-theme
+  .welcome-banner__wrap
+  .search-menu-container
+  .results {
+  background-color: white;
+}
+
+.topic-map .btn {
+  border-radius: var(--border-radius-common);
+}
+
+.uc-modernize-foundation-theme #topic-title h1 a {
+  font-weight: 700;
+}
+
+.uc-modernize-foundation-theme .sidebar-section-header {
+  padding-inline: 0 !important;
+}
+
+.admin-search__input-group,
+.sidebar-search__input-container,
+.sidebar-search__icon,
+.d-editor-textarea-wrapper {
+  background: white;
+}
+
+.uc-modernize-foundation-theme .extra-info-wrapper .topic-link {
+  font-weight: 700;
+}
+
+.admin-area .sidebar-wrapper .admin-panel {
+  --d-sidebar-active-background: transparent;
+  background: var(--secondary);
+}
+
+.latest-topic-list .table-heading {
+  padding: 0.4rem 0;
+  border-width: 1px;
+  color: var(--color-body);
+  border-color: var(--color-border-weak);
+
+  font-size: var(--d-topic-list-data-font-size);
+
+  padding: var(--space-2);
+}
+
+#main-outlet {
+  padding: 1.5rem 3em 5%;
+  box-shadow: none;
+}
+
+.btn-default {
+  border: 1px solid var(--color-primary);
+}
+
+.background-container {
+  background-image: none;
+}
+
+.alert {
+  border-radius: var(--border-radius-common);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#topic-title h1 a {
+  color: var(--color-primary);
+}
