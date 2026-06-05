@@ -159,7 +159,8 @@ h3,
 h4,
 h5,
 h6,
-#topic-title h1 a {
+#topic-title h1 a,
+.welcome-banner__title {
   color: var(--color-primary);
 }
 
