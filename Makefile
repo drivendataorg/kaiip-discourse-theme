@@ -7,13 +7,7 @@ serve:
 			cp .discourse_theme.template .discourse_theme; \
 	fi
 
-	@docker run \
-		--interactive \
-		--tty \
-		--rm \
-		--volume $(PWD):/theme \
-		--volume $(PWD)/.discourse_theme:/root/.discourse_theme \
-		discourse-watcher watch .
+	docker compose run --rm watch
 
 # Formats files
 # Note: The package.json file that comes with the base theme has a `format` script but it tries to

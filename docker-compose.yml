@@ -1,0 +1,9 @@
+services:
+  watch:
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/theme
+      - ./.discourse_theme:/root/.discourse_theme
+    command: watch .
