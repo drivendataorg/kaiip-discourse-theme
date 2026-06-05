@@ -18,7 +18,11 @@
      
 4. Agree to `Would you like this API key stored in /root/.discourse_theme?` to not be asked again, but don't commit this file.
 
-5. Select the default option `Sync with existing theme: 'KAIIP Theme' (id:5)` so you don't overwrite the production theme.
+5. Select the default option `Sync with existing theme: 'KAIIP Theme' (id:5)`.
+
+    - AVOID the "Select a different theme" option so you don't overwrite the production theme.
+    
+    - You can confirm the ID of the production theme by visiting `https://k12-ai-infrastructure.discourse.group/admin/config/customize/themes`, clicking "Edit" for the theme with the "Default theme" badge, then reading the theme ID number from the URL e.g. `/admin/customize/themes/4`
 
 6. A "Preview URL" should now be printed which you can open in a browser to preview the theme in use.
 
