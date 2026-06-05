@@ -7,7 +7,7 @@ serve:
 			cp .discourse_theme.template .discourse_theme; \
 	fi
 
-	docker compose run --rm watch
+	docker compose run --build --rm watch
 
 # Formats files
 # Note: The package.json file that comes with the base theme has a `format` script but it tries to
