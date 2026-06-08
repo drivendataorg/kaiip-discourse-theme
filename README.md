@@ -1,5 +1,42 @@
-# A graceful theme for Discourse
+# Custom theme for Discourse
 
-![Graceful theme](https://meta-s3-cdn.freetls.fastly.net/original/3X/b/8/b8954e01130435768e28041f009961982a448b28.jpg)
+## Setup
 
-Details, preview, and installation instructions here: https://meta.discourse.org/t/a-graceful-theme-for-discourse/93040
+1. You'll need Docker installed.
+
+2. Run `make serve`
+
+3. You'll be prompted for a Discourse API key on the first run. To get a new API key:
+
+   - Visit https://k12-ai-infrastructure.discourse.group/admin/api/keys with an admin account.
+
+   - For the API key permissions, the [documentation](https://meta.discourse.org/t/install-the-discourse-theme-cli-console-app-to-help-you-build-themes/82950) says you unfortunately have to grant global permissions:
+
+     - `Select a “User Level” of Single User when generating the key, not All Users.`
+
+     - `Make sure to check Global Key or you will receive 403 forbidden errors.`
+     
+4. Agree to `Would you like this API key stored in /root/.discourse_theme?` to not be asked again, but don't commit this file.
+
+5. Select the default option `Sync with existing theme: 'KAIIP Theme' (id:5)`.
+
+    - AVOID the "Select a different theme" option so you don't overwrite the production theme.
+    
+    - You can confirm the ID of the production theme by visiting `https://k12-ai-infrastructure.discourse.group/admin/config/customize/themes`, clicking "Edit" for the theme with the "Default theme" badge, then reading the theme ID number from the URL e.g. `/admin/customize/themes/4`
+
+6. A "Preview URL" should now be printed which you can open in a browser to preview the theme in use.
+
+    - If you make any changes to the local theme files, the CLI should tell you they've been automatically uploaded to the Discourse server.
+	 
+    - Refresh the Preview URL to see the changes.
+	 
+    - Notice it's not previewing via a local server but via the Discourse server online.
+
+## Theming tips
+
+- Try to only edit within the `scss/custom` folder to perform overrides to the base theme, rather than modifying the base theme directly. This avoid tricky merge conflicts if we need to pull in updates to the base theme later.
+
+- Theme development docs:
+  https://github.com/discourse/discourse/blob/main/docs/developer-guides/docs/05-themes-components/01-developing-themes.md
+
+- `about.json` contains colors that get created as CSS variables that are used by the theme e.g. the `primary` color field in this file creates a `--primary` CSS variable.

@@ -7,7 +7,20 @@
     "default-background-dark": "assets/asanoha-400px-dark.png"
   },
   "color_schemes": {
-    "Graceful": {
+    "Brand": {
+      "primary": "312e2c",
+      "secondary": "dddddd",
+      "tertiary": "191614",
+      "quaternary": "88af8e",
+      "header_background": "dddddd",
+      "header_primary": "333333",
+      "highlight": "191614",
+      "danger": "d90000",
+      "success": "1d992b",
+      "love": "fa6c8d",
+      "selected": "edf3ee"
+    },
+    "Original theme colors": {
       "primary": "333",
       "secondary": "ffffff",
       "tertiary": "88af8e",
@@ -19,20 +32,6 @@
       "success": "41e254",
       "love": "fa6c8d",
       "selected": "edf3ee"
-    },
-    "Graceful Dark": {
-      "primary": "c4cfc5",
-      "secondary": "1d261e",
-      "tertiary": "88af8e",
-      "quaternary": "88af8e",
-      "header_background": "1d261e",
-      "header_primary": "ffffff",
-      "highlight": "7e9280",
-      "danger": "f8745c",
-      "success": "41e254",
-      "love": "fa6c8d",
-      "selected": "2c412f"
     }
-  },
-  "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
+  }
 }
