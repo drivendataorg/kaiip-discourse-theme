@@ -32,6 +32,49 @@ header.d-header {
   padding: 1.5rem 0;
 }
 
+.before-header-panel-outlet {
+  display: flex;
+}
+
+.kaiip-header-nav {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 1em;
+
+  &__links {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__link a {
+    padding: 0.35em 0.6em;
+    color: var(--header_primary);
+    font-size: var(--font-up-1);
+    font-family: var(--font-body);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--header_primary);
+      text-decoration: underline;
+    }
+  }
+
+  &__external-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+  }
+
+  &__external-icon {
+    font-size: 0.85em;
+    opacity: 0.75;
+  }
+}
+
 .header-sidebar-toggle button .d-icon {
   color: var(--color-primary);
 }
